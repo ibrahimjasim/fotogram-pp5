@@ -44,6 +44,22 @@ const NavBar = () => {
       <NavLink
         className={styles.NavLink}
         activeClassName={styles.Active}
+        to="/contacts"
+      >
+        <i className="fa-solid fa-address-book"></i>Contacts
+      </NavLink>
+      
+      <NavLink
+        className={styles.NavLink}
+        activeClassName={styles.Active}
+        to="/events"
+      >
+        <i className="fa-regular fa-calendar-days"></i>Events
+      </NavLink>
+      
+      <NavLink
+        className={styles.NavLink}
+        activeClassName={styles.Active}
         to="/liked"
       >
         <i className="fas fa-heart"></i>Liked
