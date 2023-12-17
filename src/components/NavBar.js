@@ -54,7 +54,7 @@ const NavBar = () => {
       <NavLink
         className={styles.NavLink}
         activeClassName={styles.Active}
-        to="/contacts"
+        to="/contacts/create"
       >
         <i className="fa-solid fa-address-book"></i>Contacts
       </NavLink>
@@ -62,7 +62,7 @@ const NavBar = () => {
       <NavLink
         className={styles.NavLink}
         activeClassName={styles.Active}
-        to="/events"
+        to="/events/create"
       >
         <i className="fa-regular fa-calendar-days"></i>Events
       </NavLink>

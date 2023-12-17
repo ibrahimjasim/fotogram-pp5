@@ -1,0 +1,35 @@
+.Contact {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Contact h2 {
+    margin-top: 0; 
+  }
+  
+  .Contact p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .Contact strong {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .Contact .message {
+    white-space: pre-wrap;
+  }
+  
+  @media (min-width: 768px) {
+    .Contact {
+      padding: 30px;
+    }
+    
+    .Contact strong {
+      width: 150px; 
+    }
+  }
+  

@@ -1,0 +1,44 @@
+.Event {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Event h2 {
+    margin-top: 0;
+  }
+  
+  .Event p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .Event strong {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .Event .date,
+  .Event .time {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .Event .duration {
+    color: #aaa;
+  }
+  
+  .Event .details {
+    white-space: pre-wrap;
+  }
+  
+  @media (min-width: 768px) {
+    .Event {
+      padding: 30px; 
+    }
+  
+    .Event strong {
+      width: 150px;
+    }
+  }

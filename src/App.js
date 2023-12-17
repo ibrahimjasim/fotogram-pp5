@@ -7,6 +7,11 @@ import SignUpForm from "./pages/auth/SignUpForm";
 import SignInForm from "./pages/auth/SignInForm";
 import PostCreateForm from "./pages/posts/PostCreateForm";
 import PostPage from "./pages/posts/PostPage";
+import EventCreateForm from "./pages/Events/EventCreateForm";
+import EventPage from "./pages/Events/EventPage";
+import ContactCreateForm from "./pages/Contacts/ContactCreateForm";
+
+
 
 function App() {
   return (
@@ -19,6 +24,9 @@ function App() {
           <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
+          <Route exact path="/events/create" render={() => <EventCreateForm/>} />
+          <Route exact path="/events/:id" render={() => <EventPage />} />
+          <Route exact path="/contacts/create" render={() => <ContactCreateForm/>} />
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>
