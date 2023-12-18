@@ -12,6 +12,7 @@ import EventPage from "./pages/Events/EventPage";
 import ContactCreateForm from "./pages/Contacts/ContactCreateForm";
 import PostsPage from "./pages/posts/PostsPage";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
+import PostEditForm from "./pages/posts/PostEditForm";
 
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/signup" render={() => <SignUpForm />} />
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
+          <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
           <Route exact path="/events/create" render={() => <EventCreateForm/>} />
           <Route exact path="/events/:id" render={() => <EventPage />} />
           <Route exact path="/contacts/create" render={() => <ContactCreateForm/>} />
