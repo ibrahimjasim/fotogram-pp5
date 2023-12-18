@@ -56,7 +56,7 @@ const NavBar = () => {
         activeClassName={styles.Active}
         to="/contacts/create"
       >
-        <i className="fa-solid fa-address-book"></i>Contacts
+        <i className="fa-solid fa-address-book"></i>Contact
       </NavLink>
 
       <NavLink
