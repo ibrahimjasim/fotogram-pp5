@@ -13,6 +13,7 @@ import ContactCreateForm from "./pages/Contacts/ContactCreateForm";
 import PostsPage from "./pages/posts/PostsPage";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
 import PostEditForm from "./pages/posts/PostEditForm";
+import ProfilePage from "./pages/profiles/ProfilePage";
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route exact path="/events/create" render={() => <EventCreateForm/>} />
           <Route exact path="/events/:id" render={() => <EventPage />} />
           <Route exact path="/contacts/create" render={() => <ContactCreateForm/>} />
+          <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>
