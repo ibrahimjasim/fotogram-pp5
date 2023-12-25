@@ -1,5 +1,6 @@
 import { axiosReq } from "../api/axiosDefaults";
 
+
 export const fetchMoreData = async (resource, setResource) => {
   try {
     const { data } = await axiosReq.get(resource.next);
@@ -32,3 +33,7 @@ export const followHelper = (profile, clickedProfile, following_id) => {
       // the user owns, so just return it unchanged
       profile;
 };
+
+export const unfollowHelper = (profile, clickedProfile) => {
+    return;
+  }
