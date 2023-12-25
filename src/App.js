@@ -18,6 +18,7 @@ import ProfilePage from "./pages/profiles/ProfilePage";
 
 
 function App() {
+    // All the links that will be render in the Navbar
     const currentUser = useCurrentUser();
     const profile_id = currentUser?.profile_id|| "";
 
