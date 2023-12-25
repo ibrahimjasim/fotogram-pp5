@@ -44,6 +44,17 @@ export const ProfileDataProvider = ({ children }) => {
     }
   };
 
+
+  const handleUnfollow = async (clickedProfile) => {
+    try {
+  
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+    
+
   useEffect(() => {
     const handleMount = async () => {
         //  Counting followers function
