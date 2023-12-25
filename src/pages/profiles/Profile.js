@@ -41,11 +41,11 @@ const Profile = (props) => {
             </Button>
           ) : (
             <Button
-              className={`${btnStyles.Button} ${btnStyles.Black}`}
-              onClick={() => handleFollow(profile)}
-            >
-              follow
-            </Button>
+            className={`${btnStyles.Button} ${btnStyles.BlackOutline}`}
+            onClick={() => handleUnfollow(profile)}
+          >
+            unfollow
+          </Button>
           ))}
       </div>
     </div>
