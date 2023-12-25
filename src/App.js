@@ -14,6 +14,9 @@ import PostsPage from "./pages/posts/PostsPage";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
 import PostEditForm from "./pages/posts/PostEditForm";
 import ProfilePage from "./pages/profiles/ProfilePage";
+import UsernameForm from "./pages/profiles/UsernameForm";
+import UserPasswordForm from "./pages/profiles/UserPasswordForm";
+import ProfileEditForm from "./pages/profiles/ProfileEditForm";
 
 
 
@@ -39,6 +42,11 @@ function App() {
           <Route exact path="/events/:id" render={() => <EventPage />} />
           <Route exact path="/contacts/create" render={() => <ContactCreateForm/>} />
           <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
+          <Route exactpath="/profiles/:id/edit/username"render={() => <UsernameForm />}/>
+          <Route exactpath="/profiles/:id/edit/password"render={() => <UserPasswordForm />}/>
+          <Route exactpath="/profiles/:id/edit"render={() => <ProfileEditForm />}/>
+
+          
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>
