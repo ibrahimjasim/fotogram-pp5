@@ -29,8 +29,8 @@ const UsernameForm = () => {
 
   useEffect(() => {
     if (currentUser?.profile_id?.toString() !== id) {
-        history.push("/");
-      }
+      history.push("/");
+    }
   }, [currentUser, history, id]);
 
   const handleSubmit = async (event) => {

@@ -20,6 +20,7 @@ import ProfileEditForm from "./pages/profiles/ProfileEditForm";
 
 
 
+
 function App() {
     // All the links that will be render in the Navbar
     const currentUser = useCurrentUser();

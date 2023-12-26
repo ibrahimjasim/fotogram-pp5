@@ -7,7 +7,7 @@ import Event from "./Event";
 
 function CreateEvent() {
 
-  const [errors, setErrors] = useState({});
+  const [errors] = useState({});
 
   const [eventData, setEventData] = useState({
     date: "",
