@@ -1,44 +1,44 @@
-.Event {
-    border: 1px solid #ddd;
-    border-radius: 4px;
+.eventContainer {
+    border: 1px solid rgb(235, 58, 58);
+    border-radius: 1px;
     padding: 20px;
     margin-bottom: 20px;
-  }
-  
-  .Event h2 {
+}
+
+.container h2 {
     margin-top: 0;
-  }
-  
-  .Event p {
+}
+
+.container p {
     margin: 0;
     padding: 5px 0;
-  }
-  
-  .Event strong {
+}
+
+.container strong {
     display: inline-block;
     width: 100px;
-  }
-  
-  .Event .date,
-  .Event .time {
+}
+
+.date,
+.time {
     font-size: 1.2em;
     font-weight: bold;
-  }
-  
-  .Event .duration {
-    color: #aaa;
-  }
-  
-  .Event .details {
+}
+
+.duration {
+    color: rgb(14, 14, 14);
+}
+
+.details {
     white-space: pre-wrap;
-  }
-  
-  @media (min-width: 768px) {
-    .Event {
-      padding: 30px; 
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 30px; 
     }
-  
-    .Event strong {
-      width: 150px;
+
+    .container strong {
+        width: 150px;
     }
-  }
+}
