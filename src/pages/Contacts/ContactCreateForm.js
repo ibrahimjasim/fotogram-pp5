@@ -63,7 +63,7 @@ function ContactCreateForm() {
 
     if (Object.keys(validationErrors).length === 0) {
       // Submit form data (you can replace this with your own logic)
-      console.log("Form submitted:", contactData);
+      //console.log("Form submitted:", contactData);
 
       // Clear form fields
       setContactData({
