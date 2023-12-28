@@ -17,6 +17,7 @@ const ThreeDots = React.forwardRef(({ onClick }, ref) => (
 ));
 
 export const MoreDropdown = ({ handleEdit, handleDelete }) => {
+    // Delete and edit function for each post, through three dots on the left of the post
   return (
     <Dropdown className="ml-auto" drop="left">
       <Dropdown.Toggle as={ThreeDots} />
