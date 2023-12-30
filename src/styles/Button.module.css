@@ -16,7 +16,7 @@
   }
   
   .Button:hover:active {
-    background-color: red !important;
+    background-color: #2B45B9 !important;
   }
   
   .Button:active {
