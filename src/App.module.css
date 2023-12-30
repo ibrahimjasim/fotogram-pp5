@@ -1,6 +1,6 @@
 .App {
     font-family: "DM Sans", sans-serif;
-    background-color: #f8f8f8;
+    background-color: #3D015C ;
     min-height: 100vh;
   }
   
@@ -9,10 +9,11 @@
   }
   
   .Content {
-    background-color: #ffffff;
+    color: #F77F88 ;
+    background-color: #3D015C;
     padding: 10px;
-    border-radius: 2px;
-    border: 1px solid #dadadf;
+    border-radius: 5px;
+    border: 1px solid #F77F88;
   }
   
   .FillerImage {
@@ -32,7 +33,7 @@
   }
   
   a {
-    color: #555555;
+    color: #F77F88;
     transition: color ease-in-out 0.3s;
   }
   
@@ -41,7 +42,7 @@
   }
   
   a:hover i {
-    color: #2142b2;
+    color: #e45959;
     transition: color ease-in-out 0.3s;
   }
   
@@ -51,7 +52,7 @@
   
   i {
     color: #cfced3;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     padding: 7px;
     vertical-align: middle;
   }
@@ -59,7 +60,7 @@
   i:hover {
     cursor: pointer;
     transition: color ease-in-out 0.3s;
-    color: #2142b2;
+    color: #e45959;
   }
   
   figure {
