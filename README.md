@@ -9,9 +9,18 @@ The target audience of Fotogram are people who enjoy working on a platformm that
 
 
 ## Design
-In order to keeeo the user's attention and prevent distractions, a neutral and muted colour palette was the optimal choice.
+In order to keep the user's attention and prevent distractions, a neutral and muted colour palette was the optimal choice.
 
 
 #### Colour Scheme
 ![Colour _scheme](https://github.com/ibrahimjasim/fotogram-pp5/assets/127301769/da4ccefc-3ee8-413c-838b-36748c0473ae)
 The above colour palette apears mature and serious with its minimalistic and muted colours.
+
+
+#### Integrated Platformm Images
+The platform does have static background images one the "Sign up"-page and the "Sign in"-page.
+The imagges reflect the main theme of the platform; fotografy and sharing immages. 
+
+
+#### Fonts
+The main font used on Fotogram was imported from Font Awsome; DM SANS. It is a sans-serfi type of font that is optimmal for electronic print. 
